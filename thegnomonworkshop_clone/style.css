@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 87%;
+    margin: 0 auto;
+}
+
 .main-header {
     background-color: coral;
 }
@@ -11,4 +16,25 @@
 .mhl__span-1 {
     text-transform: uppercase;
     transform: rotate(90deg);
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header__left-section {
+    display: flex;
+}
+
+.main-header__description {
+    align-self: center;
+}
+
+.main-header__right-section {
+    align-self: center;
+}
+
+.main-header__social-links {
+    display: flex;
 }
